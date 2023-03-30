@@ -1,0 +1,9 @@
+k=0
+for a1 in "ДЕЙНПТЬЯ":
+    for a2 in "ДЕЙНПТЬЯ":
+        for a3 in "ДЕЙНПТЬЯ":
+            for a4 in "ДЕЙНПТЬЯ":
+               k+=1
+               s = a1+a2+a3+a4
+               if s.count("Д")<=1 and s.count("Е")==0  and s.count("Й")<=1  and s.count("Н")<=1 and s.count("П")<=1  and s.count("Т")<=1 and s.count("Ь")<=1 and s.count("Я")==0:
+                  print(k, s)
